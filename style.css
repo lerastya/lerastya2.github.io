@@ -1,0 +1,45 @@
+body{
+    color:rgb(194, 85, 85);
+    background-image: url(sobaka.jpg);
+    background-size: cover;
+}
+.logo{
+        width: 100px;
+    }
+    .logo:hover{
+        width: 200px;
+    }
+    .logo2{
+        width: 800px;
+        box-shadow: 5px 10px 15px rgb(99, 70, 70);
+    }
+    .header{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 70px ;
+        color: rgb(168, 216, 255);
+        text-shadow: 5px 10px 7px rgb(24, 19, 100);
+    }
+    .header:hover{
+        color: rgb(255, 173, 214);
+    }
+    .desk_os{ 
+        border: 5px solid rgb(120, 189, 105);
+        border-radius: 40px;
+        background-color: rgba(167, 224, 192, 0.904);
+        box-shadow: 5px 15px 25px rgb(4, 39, 4);
+        width: 25%;
+    }
+    .mob_os{ 
+        border: 5px solid rgb(175, 105, 189);
+        border-radius: 40px;
+        background-color: rgba(224, 167, 219, 0.863);
+        box-shadow: 5px 15px 25px rgb(39, 4, 39);
+        width: 25%;
+    }
+    .serv_os{ 
+        border: 5px solid rgb(105, 186, 189);
+        border-radius: 40px;
+        background-color: rgba(167, 224, 216, 0.863);
+        box-shadow: 5px 15px 25px rgb(4, 37, 39);
+        width: 25%;
+    }
