@@ -5,9 +5,12 @@ body{
 }
 .logo{
         width: 100px;
+        border-radius: 20px;
+        height: 75px;
     }
     .logo:hover{
         width: 200px;
+        height: 175px;
     }
     .logo2{
         width: 800px;
@@ -24,22 +27,33 @@ body{
     }
     .desk_os{ 
         border: 5px solid rgb(120, 189, 105);
-        border-radius: 40px;
+        border-radius: 30px;
         background-color: rgba(167, 224, 192, 0.904);
         box-shadow: 5px 15px 25px rgb(4, 39, 4);
         width: 25%;
     }
     .mob_os{ 
         border: 5px solid rgb(175, 105, 189);
-        border-radius: 40px;
+        border-radius: 30px;
         background-color: rgba(224, 167, 219, 0.863);
         box-shadow: 5px 15px 25px rgb(39, 4, 39);
         width: 25%;
     }
     .serv_os{ 
         border: 5px solid rgb(105, 186, 189);
-        border-radius: 40px;
+        border-radius: 30px;
         background-color: rgba(167, 224, 216, 0.863);
         box-shadow: 5px 15px 25px rgb(4, 37, 39);
         width: 25%;
+    }
+    .general{
+        width: 25%;
+        background-image: linear-gradient(#deffdbe3, #fff6e0d8, #ffe0e5d7, #ff9985d5, #b270a1de);
+        border-radius: 20px;
+        color: black;
+    }
+    .btn_os{
+        width: 100px;
+        background-color: rgba(235, 143, 107, 0.685);
+        text-decoration: none;
     }
